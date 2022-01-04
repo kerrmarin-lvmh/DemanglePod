@@ -12,6 +12,7 @@ public struct BadgeViewContainer: View {
         HStack {
             Text("Test")
             BadgeView(title: "Test")
+                // If you don't run this line the crash doesn't happen
                 .badgeViewStyle(SecondaryBadgeViewStyle())
         }
     }
