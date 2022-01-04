@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DemanglePod_Example' do
+  pod 'DemanglePod', :path => '../'
+
+  target 'DemanglePod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
