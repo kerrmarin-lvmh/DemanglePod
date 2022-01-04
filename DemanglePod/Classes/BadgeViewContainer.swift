@@ -14,6 +14,7 @@ public struct BadgeViewContainer: View {
             BadgeView(title: "Test")
                 .badgeViewStyle(SecondaryBadgeViewStyle())
         }
-        
     }
+
+    public init() { }
 }
