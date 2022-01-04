@@ -11,6 +11,7 @@
 		4AA3107DEABE755B3DF35E8FA93DE7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		66DA41668DE5B48B73FE7E1E501504A2 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6058EA4756C5361B246ACCE558BAF72A /* BadgeView.swift */; };
 		6C5A7796069BE429A07B07B1D7383169 /* DemanglePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A28946EC5679B052CA7BAD096122790 /* DemanglePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FDD530A278465730028549D /* BadgeViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD5309278465730028549D /* BadgeViewContainer.swift */; };
 		AF8FE3617147A0DF3134D6DB619020E9 /* Pods-DemanglePod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54E11E5F39DAF05EA64BBDF571EBC9B /* Pods-DemanglePod_Example-dummy.m */; };
 		AFB74977AED679E1981DEBF4BFA38C35 /* Pods-DemanglePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF110A840187A84EF0C5FCDFBD52FBE /* Pods-DemanglePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B158C9A2E8D7B19E30213B78B8FA9BAB /* DemanglePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 925208B4C1C089AF8749509A1180FA37 /* DemanglePod-dummy.m */; };
@@ -55,13 +56,14 @@
 		6AF110A840187A84EF0C5FCDFBD52FBE /* Pods-DemanglePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemanglePod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6CBD67408BD4D42BC0A205C5BB23E565 /* Pods-DemanglePod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemanglePod_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		858B6EDDCA5DB52B6C105849FC370C29 /* DemanglePod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DemanglePod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		858B6EDDCA5DB52B6C105849FC370C29 /* DemanglePod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DemanglePod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8975F23ECC8930B77ACA9A78EEEA715F /* Pods-DemanglePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemanglePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FDD5309278465730028549D /* BadgeViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeViewContainer.swift; sourceTree = "<group>"; };
 		92152011A3C5A29D67F1E6BF4988C79B /* DemanglePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemanglePod-prefix.pch"; sourceTree = "<group>"; };
 		925208B4C1C089AF8749509A1180FA37 /* DemanglePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DemanglePod-dummy.m"; sourceTree = "<group>"; };
-		965929E7710A2BC8ABD47BDD49847EFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		965929E7710A2BC8ABD47BDD49847EFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9CBEBDCA6B879C2E80639A5DD25DB2BC /* Pods-DemanglePod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemanglePod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9716CE52452B7DBDA97CD58E2D11894 /* DemanglePod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DemanglePod; path = DemanglePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3787449B81480FCCD25831F3CF4EA1E /* Pods-DemanglePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemanglePod_Tests.modulemap"; sourceTree = "<group>"; };
 		C54E11E5F39DAF05EA64BBDF571EBC9B /* Pods-DemanglePod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemanglePod_Example-dummy.m"; sourceTree = "<group>"; };
@@ -69,7 +71,7 @@
 		DCB1370F2B123C5236A105853DFC35A4 /* DemanglePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DemanglePod-Info.plist"; sourceTree = "<group>"; };
 		E393389F438C1CA9A81A33AC3EF8E61F /* Pods-DemanglePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemanglePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E52AD23CD7E18AD409D38CE0034DFFB7 /* Pods-DemanglePod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemanglePod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FB994B5FB9DD258E44C3D1EA139326C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FB994B5FB9DD258E44C3D1EA139326C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				6058EA4756C5361B246ACCE558BAF72A /* BadgeView.swift */,
 				40AE6CEBFD4184FADA5EA5FEC3D74D0B /* Pod */,
 				3CC07373E46857D0CC0E49BA7E2AAEEA /* Support Files */,
+				8FDD5309278465730028549D /* BadgeViewContainer.swift */,
 			);
 			name = DemanglePod;
 			path = ../..;
@@ -377,6 +380,7 @@
 			files = (
 				66DA41668DE5B48B73FE7E1E501504A2 /* BadgeView.swift in Sources */,
 				B158C9A2E8D7B19E30213B78B8FA9BAB /* DemanglePod-dummy.m in Sources */,
+				8FDD530A278465730028549D /* BadgeViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,8 +668,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

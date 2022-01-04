@@ -51,6 +51,15 @@ public struct PrimaryBadgeViewStyle: BadgeViewStyle {
     public init() { }
 }
 
+public struct SecondaryBadgeViewStyle: BadgeViewStyle {
+
+    public func makeBody(configuration: Configuration) -> some View {
+        configuration.title
+            .background(Color.blue)
+    }
+
+    public init() { }
+}
 
 public protocol BadgeViewStyle {
     /// The configuration that has the views that are available for placing and styling within a `BadgeView`.
