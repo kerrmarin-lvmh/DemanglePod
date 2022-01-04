@@ -1,0 +1,16 @@
+PODS:
+  - DemanglePod (0.1.0)
+
+DEPENDENCIES:
+  - DemanglePod (from `../`)
+
+EXTERNAL SOURCES:
+  DemanglePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DemanglePod: e59683f287d08a57e4b42dca86206fc7421a222b
+
+PODFILE CHECKSUM: 3a04997a92aec36b486d512bd58c4d0beefac0b6
+
+COCOAPODS: 1.11.2

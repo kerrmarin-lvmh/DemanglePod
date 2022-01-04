@@ -1,0 +1,6 @@
+framework module DemanglePod {
+  umbrella header "DemanglePod-umbrella.h"
+
+  export *
+  module * { export * }
+}
